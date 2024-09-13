@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordy World เกมจับคู่แสนสนุก</title>
+    <!-- ลิงก์ไปยังไฟล์ CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wordy World เกมจับคู่แสนสนุก</h1>
+    <p>กติกา: จับคู่อิโมจิกับคำศัพท์ภาษาอังกฤษที่ถูกต้อง คลิกที่อิโมจิและคลิกที่คำศัพท์ หากจับคู่ถูกต้อง การ์ดทั้งสองจะหายไป</p>
+    
+    <!-- กระดานเกม -->
+    <div class="game-board">
+        <!-- แถวที่ 1: การ์ดอิโมจิ -->
+        <div class="row" id="emoji-row">
+            <div class="card" data-name="apple">🍎</div>
+            <div class="card" data-name="dog">🐶</div>
+            <div class="card" data-name="car">🚗</div>
+            <div class="card" data-name="sun">☀️</div>
+            <div class="card" data-name="heart">❤️</div>
+            <div class="card" data-name="star">⭐</div>
+            <div class="card" data-name="ball">⚽</div>
+            <div class="card" data-name="fish">🐟</div>
+            <div class="card" data-name="tree">🌳</div>
+            <div class="card" data-name="book">📚</div>
+        </div>
+
+        <!-- แถวที่ 2: การ์ดคำศัพท์ภาษาอังกฤษ -->
+        <div class="row" id="text-row">
+            <div class="card" data-name="apple">Apple</div>
+            <div class="card" data-name="dog">Dog</div>
+            <div class="card" data-name="car">Car</div>
+            <div class="card" data-name="sun">Sun</div>
+            <div class="card" data-name="heart">Heart</div>
+            <div class="card" data-name="star">Star</div>
+            <div class="card" data-name="ball">Ball</div>
+            <div class="card" data-name="fish">Fish</div>
+            <div class="card" data-name="tree">Tree</div>
+            <div class="card" data-name="book">Book</div>
+        </div>
+    </div>
+
+    <!-- ลิงก์ไปยังไฟล์ JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
